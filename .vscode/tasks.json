@@ -4,7 +4,7 @@
     {
       "label": "msvc build",
       "type": "shell",
-      "command": "vcvars64.bat && cl.exe /EHsc main.cpp && main.exe",
+      "command": "vcvars64.bat && cl /EHsc main.cpp && main",
       "args": [],
       "group": {
         "kind": "build",
